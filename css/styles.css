@@ -1,0 +1,148 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	width: 100%;
+	background: -webkit-linear-gradient(#006699, #000);
+}
+
+
+a {
+	text-decoration: none;
+	background-color: #1e1e1e;
+	color: #fff;
+	border-radius: 15%;
+	padding: 10px 15px;
+}
+
+.header {
+	padding-top: 10px;
+	background-color: #1e1e1e;
+}
+
+.header li {
+	display: inline-block;
+	text-align: center;
+}
+
+.header a {
+	text-decoration: none;
+	font-size: 15px;
+	color: #fff;
+	background: #1e1e1e;
+	padding: 10px;
+}
+
+.coaches {
+	color: #000;
+	background-color: #1e1e1e;
+}
+
+.jumbotron {
+	text-align: center;
+	text-shadow: 4px 2px #000;
+	background-color: inherit;
+	position: relative;
+	color: #fff;
+	font-family: 'Graduate', cursive;
+	width: 100%;
+	overflow: hidden;
+	padding: 150px;
+	margin: 0px;
+}
+
+.jumbotron h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 35px;
+	position: relative;
+}
+
+.jumbotron h1 b {
+	font-family: 'Graduate', cursive;
+	font-size: 40px;
+}
+
+.section {
+	text-align: center;
+	font-family: 'Graduate', cursive;
+	color: #fff;
+	text-shadow: 2px 2px #000;
+	margin: 0px;
+	overflow: hidden;
+}
+
+#coach {
+	padding: 150px;
+}
+
+#cast {
+	padding: 150px;
+}
+
+#play {
+	padding: 150px;
+}
+
+.subSsection {
+	background: no-repeat center center;
+	background-size: cover;
+	margin: 15px;
+	padding: 50px;
+}
+
+.subSection b {
+	text-shadow: 4px 4px #000;
+}
+
+.footer {
+	color: #fff;
+	font-size: 10px;
+	background-color: #000;
+	min-height: 100%;
+	position: relative;
+}
+
+.footer h3 {
+	font-size: 15px;
+}
+
+.footer h3 b {
+	font-family: 'Graduate', cursive;
+}
+
+.footer p {
+	margin-top: 50px;
+}
+
+.footer a{
+	text-decoration: none;
+	background-color: #1e1e1e;
+	color: #fff;
+	border-radius: 15%;
+	font-size: 9px;
+	margin-top: 16px;
+}
+
+.footer p span {
+	font-family: 'Graduate', cursive;
+	font-style: bold;
+}
+
+.logo {
+	font-family: 'Graduate', cursive;
+	font-style: bold;
+}
+
+.btn:hover {
+	color: #1e1e1e;
+	background-color: #fff;
+	transition: background .5s;
+	text-shadow: none;
+}
+
+@media screen and (max-width: 450px) {
+	.header {
+		display: none;
+	}
+}
